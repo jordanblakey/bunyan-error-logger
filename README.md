@@ -103,3 +103,13 @@ log.addStream({
   level: "debug"
 });
 ```
+
+## Child Logs
+
+`log.child()` is useful for tagging & filtering logs by your apps' subcomponents:
+
+```js
+log
+  .child({ widget_type: 'component-name' })
+  .warn('this is a warning from a sub-component')
+```
