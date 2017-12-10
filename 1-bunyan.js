@@ -31,7 +31,7 @@ log.info({ foo: 'bar' }, 'hi') // include a feilds object
 
 try {
   // Pipe a JS error to bunyan
-  throw pe.render(new Error('something went wrong!'))
+  throw new Error('something went wrong!')
 } catch (err) {
   log.error(err.name + ': ' + err.message)
 }
