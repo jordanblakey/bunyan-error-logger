@@ -2,6 +2,12 @@
 
 Testing basic usage of Node package bunyan for organized error-logging.
 
+**Output Example**
+
+```sh
+{"name":"myapp","hostname":"no-name","pid":23246,"level":50,"msg":"ReferenceError: pe is not defined","time":"2017-12-10T21:44:28.246Z","v":0}
+```
+
 **Full Documentation**
 
 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
